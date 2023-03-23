@@ -89,27 +89,3 @@ body{
     text-align: center;
     margin-top: 50px;
 }
-@media screen and (max-width: 600px) {
-    .container {
-        width: 90vw;
-        padding: 50px 20px;
-    }
-    .search-box input {
-        width: 60%;
-    }
-    .btn {
-        width: 30%;
-    }
-    .output .word {
-        flex-direction: column;
-    }
-    .output .info {
-        flex-direction: column;
-    }
-    .output .info span {
-        margin-top: 10px;
-    }
-    .output .info .example {
-        margin-top: 0;
-    }
-}
