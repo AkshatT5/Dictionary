@@ -1,0 +1,91 @@
+. {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+*:not(i) {
+    font-family: 'Oswald', sans-serif;
+}
+body{
+    background-color: #f8ceec;
+    background-image: linear-gradient(315deg, #f8ceec 0%, #a88beb 74%);
+}
+.container {
+    background-color: #ffffff;
+    width: 100vmin;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 80px 50px;
+    border-radius: 14px;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+}
+.search-box{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.search-box input{
+    padding: 7px;
+    width:70%;
+    border: none;
+    outline: none;
+    border-bottom: #a88beb 2px solid;
+    font-size: 1.2rem;
+    background: transparent;
+}
+.btn {
+    width:20%;
+    padding: 15px 0;
+    border: none;
+    outline: none;
+    border-bottom: #a88beb 2px solid;
+    font-size: 1.2rem;
+    cursor: pointer;
+    background-color: #a88beb;
+    border-radius: 7px;
+}
+.output {
+    position: relative;
+}
+.output h3{
+    font-size: 1.5rem;
+    color: #a88beb;
+    margin-bottom: 10px;
+}
+.output .word{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 55px;
+}
+.output button {
+    background-color: transparent;
+    color: #a88beb;
+    border: none;
+    outline: none;
+    font-size: 1.5rem;
+}
+.output .info{
+    display: flex;
+    gap: 10px;
+    color: #a88beb;
+    font-size: 1.2rem;
+}
+.meaning {
+    color: #a88beb;
+}
+.example {
+    color: #a88beb;
+    font-style: oblique;
+    border-left : 2px solid #a88beb;
+    padding-left: 10px;
+    margin-top: 10px;
+}
+.error {
+    color: #a88beb;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 50px;
+}
