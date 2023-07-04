@@ -13,7 +13,7 @@ View example sentences that use the word
 
 To use the app, simply download or clone the repository to your local machine and open the index.html file in your web browser.
 
-To search for a word, simply enter the word in the search box and click the "Search" button. The app will retrieve the word definition, part of speech, phonetic pronunciation, and example sentences from the Dictionary API and display them on the screen.
+To search for a word, simply enter the word in the search box and click the "Search" button. The app will retrieve the word definition, part of speech and example sentences from the Dictionary API and display them on the screen.
 
 ## Credits
 
